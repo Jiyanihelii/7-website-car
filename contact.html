@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>HeliCarWorld</title>
+</head>
+<body>
+
+
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Heli<b class="accent">Car World</b></h1>
+        </a>
+      
+    </nav>
+
+
+    <!------------contact section----------->
+    <section class="contact">
+        <h1>Get in Touch for Your Dream Ride!</h1>
+        <p>
+            Have questions or need assistance? Our team is here to help
+            you find the perfect car for your adventure.
+        </p>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-----------replace with your access key--------->
+            <input type="hidden" name="access_key" value="PUT_YOUR_ACCESS_KEY_HERE" />
+
+            <div class="car-select">
+                <div class="car-select-item">
+                    <label for="location">Location:</label>
+                    <select name="location" class="car-select-input" id="location">
+                        <option value="Melbourne">Melbourne</option>
+                        <option value="London">London</option>
+                        <option value="Perth">Perth</option>
+                        <option value="Sydney">Sydney</option>
+                        <option value="New York">New York</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="New Jersey">New Jersey</option>
+                    </select>
+                </div>
+
+                <div class="car-select-item">
+                    <label for="Car-type">Car To Buy:</label>
+                    <select name="car-type" class="car-select-input" id="car-type">
+                        <option value="Mercedes-AMG GT R">Mercedes-AMG GT R</option>
+                        <option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+                        <option value="BMW 428i - F32">BMW 428i - F32</option>
+                        <option value="Toyota 86 - coupe">Toyota 86 - coupe</option>
+                        <option value="Lexus LS">Lexus LS</option>
+                        <option value="Mercedes Benz GLE">Mercedes Benz GLE</option>
+                        <option value="Lamborghini Venemo">Lamborghini Venemo</option>
+                    </select>
+                </div>
+
+                <div class="car-select-item">
+                    <label for="Date">Date:</label>
+                    <input type="date" id="date" name="date" class="car-select-input" />
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="phone" name="phone" placeholder="Phone" required />
+                <button type="submit" class="btn-2">Submit</button>
+            </div>
+        </form>
+    </section>
+
+
+            <!--------------footer section--------------->
+            <footer class="index-footer">
+                
+                    
+
+                    
+
+                <div class="footer-bottom">
+                   
+                    <p>&copy; 2024 HeliCarWorld. All Rights Reserved.</p>
+            
+                </div>
+
+            </footer>
+
+
+
+
+
+
+</body>
+</html>
